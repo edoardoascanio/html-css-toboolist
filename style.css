@@ -17,6 +17,7 @@ header{
 }
 
 body{
+    height: 1000px;
     background-color: rgb(230, 230, 247);
 }
 
@@ -72,4 +73,55 @@ body{
 
 ul{
    font-family: 'Segoe UI','Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+ul h1{
+    margin-top: 60px;
+}
+
+li{
+    list-style:none;
+    margin-top: 20px;
+}
+
+#editorial{
+    font-size: 15px;
+    color: white;  
+    background-color:#52a4e3;
+    border-radius: 5px; 
+}
+
+#q1{
+    font-size: 15px;
+    color: white;  
+    background-color:#a76ec2;
+    border-radius: 5px; 
+}
+
+#recruiting{
+    font-size: 15px;
+    color: white;  
+    background-color:#58ad7c;
+    border-radius: 5px; 
+}
+
+#mobile{
+    font-size: 15px;
+    color: white;  
+    background-color:#d99032;
+    border-radius: 5px; 
+}
+
+#web{
+    font-size: 15px;
+    color: white;  
+    background-color:#c45c89;
+    border-radius: 5px; 
+}
+
+#sale{
+    font-size: 15px;
+    color: white;  
+    background-color:#acbf56;
+    border-radius: 5px; 
 }
