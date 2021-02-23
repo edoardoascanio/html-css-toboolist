@@ -1,0 +1,70 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    background-color: white;
+    margin:auto;
+    padding-left: 50px;
+}
+
+#app{
+    font-size: 50px;
+    font-family: 'roboto', sans-serif;    
+    vertical-align: super;    
+}
+
+body{
+    background-color: rgb(230, 230, 247);
+}
+
+#task{
+    height: 60px;
+    margin: auto;
+    margin-top: 50px;
+    width: 1100px;
+    background-color: white;
+    border-radius: 5px;
+}
+
+#list{
+    margin: auto;
+    margin-top: 1px;
+    width: 1100px;
+    background-color: white;
+    border-radius: 5px;
+}
+
+#button1, #button2{
+    display: inline-block;
+    margin-top: 10px;
+    margin-left: 50px;
+    border-radius: 5px;
+    padding: 5px;
+    width: 10%;
+    height: 40px;
+    text-align: center;
+    vertical-align: middle;   
+}
+
+#button1{
+    background-color:#52a4e3;   
+}
+
+#button2{
+    border: 1px solid gray
+}
+
+#add-task{
+    font-family: 'Segoe UI','Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 15px;
+    color: white;  
+}
+
+#add-section{
+    font-family: 'Segoe UI','Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 15px;
+    color: gray;  
+}
