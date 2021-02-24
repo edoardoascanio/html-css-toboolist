@@ -7,13 +7,19 @@
 header{
     background-color: white;
     margin: auto;
+    padding: 10px;
     padding-left: 50px;
 }
 
-#app{
+header h1{
+    display: inline-block;
     font-size: 50px;
-    font-family: 'roboto', sans-serif;    
-    vertical-align: super;    
+    font-family: Arial, Helvetica, sans-serif;    
+    vertical-align: middle;    
+}
+
+header img{
+    vertical-align: middle;
 }
 
 body{
@@ -25,7 +31,7 @@ body{
     margin: auto;
     margin-top: 50px;
     padding: 10px;
-    padding-left: 50px;
+    padding-left: 80px;
     width: 1100px;
     background-color: white;
     border-radius: 5px;
@@ -41,7 +47,8 @@ body{
     border-radius: 5px;
 }
 
-#button1, #button2{
+#button1{
+    background-color:#52a4e3; 
     display: inline-block;
     border-radius: 5px;
     padding: 5px;
@@ -51,28 +58,34 @@ body{
     vertical-align: middle;   
 }
 
-#button1{
-    background-color:#52a4e3;   
-}
-
 #button2{
-    border: 1px solid gray
+    display: inline-block;
+    border-radius: 5px;
+    border: 1px solid gray;
+    background-color: transparent;
+    padding: 5px;
+    width: 10%;
+    height: 35px;
+    text-align: center;
+    vertical-align: middle; 
 }
 
 #add-task{
-    font-family: 'Segoe UI','Open Sans', 'Helvetica Neue', sans-serif;
+    font-family: Arial, Helvetica, sans-serif;  
     font-size: 15px;
-    color: white;  
+    color: white;
+    vertical-align: middle;  
 }
 
 #add-section{
-    font-family: 'Segoe UI','Open Sans', 'Helvetica Neue', sans-serif;
+    font-family: Arial, Helvetica, sans-serif;  
     font-size: 15px;
-    color: gray;  
+    color: gray;
+    vertical-align: middle;  
 }
 
 ul{
-   font-family: 'Segoe UI','Open Sans', 'Helvetica Neue', sans-serif;
+    font-family: Arial, Helvetica, sans-serif;  
 }
 
 ul h1{
@@ -81,56 +94,104 @@ ul h1{
 
 li{
     list-style:none;
-    margin-top: 20px;
+    margin-top: 10px;
 }
 
 #editorial{
-    font-size: 15px;
+    font-size: 10px;
     color: white;  
-    background-color:#52a4e3;
+    background-color:#52a4e3; 
+    display: inline-block;
+    padding: 5px;
+    width: 60px;
+    height: 25px;
+    text-align: center;
+    vertical-align: middle; 
+    line-height: 15px;
     border-radius: 5px; 
+    margin: 10px;
 }
 
 #q1{
-    font-size: 15px;
+    font-size: 10px;
     color: white;  
     background-color:#a76ec2;
     border-radius: 5px; 
+    display: inline-block;
+    padding: 5px;
+    width: 60px;
+    height: 25px;
+    text-align: center;
+    vertical-align: middle; 
+    line-height: 15px;
+    margin: 10px;
 }
 
 #recruiting{
-    font-size: 15px;
+    font-size: 10px;
     color: white;  
     background-color:#58ad7c;
     border-radius: 5px; 
+    display: inline-block;
+    padding: 5px;
+    width: 60px;
+    height: 25px;
+    text-align: center;
+    vertical-align: middle; 
+    line-height: 15px;
+    margin: 10px;
 }
 
 #mobile{
-    font-size: 15px;
+    font-size: 10px;
     color: white;  
     background-color:#d99032;
     border-radius: 5px; 
+    display: inline-block;
+    padding: 5px;
+    width: 60px;
+    height: 25px;
+    text-align: center;
+    vertical-align: middle; 
+    line-height: 15px;
+    margin: 10px;
 }
 
 #web{
-    font-size: 15px;
+    font-size: 10px;
     color: white;  
     background-color:#c45c89;
     border-radius: 5px; 
+    display: inline-block;
+    padding: 5px;
+    width: 60px;
+    height: 25px;
+    text-align: center;
+    vertical-align: middle; 
+    line-height: 15px;
+    margin: 10px;
 }
 
 #sale{
-    font-size: 15px;
+    font-size: 10px;
     color: white;  
     background-color:#acbf56;
     border-radius: 5px; 
+    display: inline-block;
+    padding: 5px;
+    width: 60px;
+    height: 25px;
+    text-align: center;
+    vertical-align: middle; 
+    line-height: 15px;
+    margin: 10px;
 }
 
 .check {
     color: limegreen;
     text-align: center;
     line-height: 20px;
-    width: 150px; 
+    width: 100px; 
     height: 100px;
     padding: 3px;
     border: 1px solid limegreen;
@@ -142,10 +203,9 @@ li{
     color: red;
     text-align: center;
     line-height: 20px;
-    width: 150px; 
+    width: 100px; 
     height: 100px;
     padding: 3px;
     border: 1px solid red;
-    background: transparent;
-    border-radius: 50%;
+   border-radius: 50%;   
   }
