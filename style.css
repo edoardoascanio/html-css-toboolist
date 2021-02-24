@@ -188,24 +188,30 @@ li{
 }
 
 .check {
+    display: inline-block;
     color: limegreen;
     text-align: center;
-    line-height: 20px;
-    width: 100px; 
-    height: 100px;
+    vertical-align: middle;
+    line-height: 12px;
+    width: 20px; 
+    height: 20px;
     padding: 3px;
     border: 1px solid limegreen;
     background: transparent;
     border-radius: 50%;
+    font-size: 15px;
   }
 
 .cross {
+    display: inline-block;
     color: red;
     text-align: center;
-    line-height: 20px;
-    width: 100px; 
-    height: 100px;
+    vertical-align: middle;
+    line-height: 12px;
+    width: 20px; 
+    height: 20px;
     padding: 3px;
     border: 1px solid red;
-   border-radius: 50%;   
+    border-radius: 50%;  
+    font-size: 15px; 
   }
