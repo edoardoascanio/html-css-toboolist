@@ -125,3 +125,27 @@ li{
     background-color:#acbf56;
     border-radius: 5px; 
 }
+
+.check {
+    color: limegreen;
+    text-align: center;
+    line-height: 20px;
+    width: 150px; 
+    height: 100px;
+    padding: 3px;
+    border: 1px solid limegreen;
+    background: transparent;
+    border-radius: 50%;
+  }
+
+.cross {
+    color: red;
+    text-align: center;
+    line-height: 20px;
+    width: 150px; 
+    height: 100px;
+    padding: 3px;
+    border: 1px solid red;
+    background: transparent;
+    border-radius: 50%;
+  }
