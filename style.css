@@ -97,10 +97,9 @@ li{
     margin-top: 10px;
 }
 
-#editorial{
+.box{
     font-size: 10px;
-    color: white;  
-    background-color:#52a4e3; 
+    color: white;
     display: inline-block;
     padding: 5px;
     width: 60px;
@@ -112,79 +111,29 @@ li{
     margin: 10px;
 }
 
-#q1{
-    font-size: 10px;
-    color: white;  
+.editorial{  
+    width: 100%;
+    background-color:#52a4e3;    
+}
+
+#q1{ 
     background-color:#a76ec2;
-    border-radius: 5px; 
-    display: inline-block;
-    padding: 5px;
-    width: 60px;
-    height: 25px;
-    text-align: center;
-    vertical-align: middle; 
-    line-height: 15px;
-    margin: 10px;
 }
 
-#recruiting{
-    font-size: 10px;
-    color: white;  
+#recruiting{ 
     background-color:#58ad7c;
-    border-radius: 5px; 
-    display: inline-block;
-    padding: 5px;
-    width: 60px;
-    height: 25px;
-    text-align: center;
-    vertical-align: middle; 
-    line-height: 15px;
-    margin: 10px;
 }
 
-#mobile{
-    font-size: 10px;
-    color: white;  
+#mobile{  
     background-color:#d99032;
-    border-radius: 5px; 
-    display: inline-block;
-    padding: 5px;
-    width: 60px;
-    height: 25px;
-    text-align: center;
-    vertical-align: middle; 
-    line-height: 15px;
-    margin: 10px;
 }
 
-#web{
-    font-size: 10px;
-    color: white;  
+#web{ 
     background-color:#c45c89;
-    border-radius: 5px; 
-    display: inline-block;
-    padding: 5px;
-    width: 60px;
-    height: 25px;
-    text-align: center;
-    vertical-align: middle; 
-    line-height: 15px;
-    margin: 10px;
 }
 
 #sale{
-    font-size: 10px;
-    color: white;  
     background-color:#acbf56;
-    border-radius: 5px; 
-    display: inline-block;
-    padding: 5px;
-    width: 60px;
-    height: 25px;
-    text-align: center;
-    vertical-align: middle; 
-    line-height: 15px;
-    margin: 10px;
 }
 
 .check {
